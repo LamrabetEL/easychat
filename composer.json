@@ -1,0 +1,17 @@
+{
+  "name": "easyChat",
+  "license": "proprietary",
+  "type": "project",
+  "autoload": {
+        "psr-4": {"Easychat\\": "src/","Easychat\\Controller\\": "src/Controller/",
+		"Easychat\\Repository\\": "src/Repository/",
+		"Easychat\\app\\": "app/"},
+		"classmap": [
+		  "app/Routing.php"
+		]
+  },
+  
+  "require": {
+    "php": ">=5.5.9"
+  }
+}
